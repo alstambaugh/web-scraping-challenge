@@ -1,0 +1,29 @@
+.jumbotron {
+    background-color: #FFE0CC; 
+}
+
+h1 {
+    font-size: 64px;
+    color: black; 
+}
+
+.btn-primary {
+    background-color: #b34700;
+    border-color: #b34700;
+}
+
+h3 {
+    color:#b34700;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.new_section {
+    margin-top: 20px;
+}
