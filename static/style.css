@@ -1,3 +1,7 @@
+body {
+    background-color: #f2f2f2; 
+}
+
 .jumbotron {
     background-color: #FFE0CC; 
 }
@@ -8,6 +12,21 @@ h1 {
 }
 
 .btn-primary {
+    background-color: #b34700;
+    border-color: #b34700;
+}
+
+.btn-primary:hover {
+    background-color: #b34700;
+    border-color: #b34700;
+}
+
+.btn-primary:active{
+    background-color: #b34700;
+    border-color: #b34700;
+}
+
+.btn-primary:focus{
     background-color: #b34700;
     border-color: #b34700;
 }
@@ -25,5 +44,31 @@ p {
 }
 
 .new_section {
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+.card-img-top {
+    width: 540px
+
+}
+
+table {
+    border: 3px solid black;
+    background-color: white;
+    width: 100%;
+    font-size: 14px;
+}
+
+tr {
+    height: 50px;
+}
+
+.item {
+    border: 1px solid black;
+    width: 50%
+}
+
+.value {
+    border: 1px solid black;
+    width: 150%
 }

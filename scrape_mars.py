@@ -62,9 +62,13 @@ def scrape():
     #Set index
     facts_df.set_index(0, inplace=True)
 
-    #Convert dataframe to HTML
-    facts_df.to_html('mars_facts.html')
+    #Rename columns
+    facts_df = facts_df.rename(columns = {1:'Mars'})
+    facts_df = facts_df.rename_axis('Description')
 
+    #Convert dataframe to dictionary
+    facts_dict = facts_df.to_dict()
+    
 
     # In[ ]:
 
@@ -136,6 +140,7 @@ def scrape():
         "news_title": news_title,
         "news_p": news_p,
         "featured_image_url": featured_image_url,
+        "data_table": facts_dict["Mars"],
         "hemisphere_image_urls": hemisphere_image_urls
     }
 
